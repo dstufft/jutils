@@ -102,7 +102,7 @@ install_requires = [
 
 setup(
     name="jutils",
-    version="0.1.1",
+    version="0.1.2",
     author="Donald Stufft",
     author_email="donald.stufft@gmail.com",
     url="https://github.com/dstufft/jutils",
