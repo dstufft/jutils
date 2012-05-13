@@ -109,7 +109,7 @@ setup(
     description="A collection of jingo helpers for various purposes.",
     license=open("LICENSE").read(),
     packages=find_packages(exclude=("tests",)),
-    package_data=find_package_data("jutils", only_in_packages=False),
+    package_data=find_package_data(".", only_in_packages=False),
     include_package_data=True,
     install_requires=install_requires,
     zip_safe=False,
